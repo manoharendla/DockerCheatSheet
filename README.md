@@ -2,7 +2,7 @@
 
 
 | S.No. | Dockercommand | Description | 
-| --- | --- | 
+| --- | --- | --- |
 | 1. | docker images | Displays the images in the docker host |
 
 

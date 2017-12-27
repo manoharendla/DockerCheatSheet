@@ -15,9 +15,11 @@
 | 10. | docker attach containerName  | Allows you to attach to the container in interactive mode |
 | 11. | docker ps  | Lists the running containers |
 | 12. | docker ps -a  | Lists all the containers in running or exited state |
-| 13. | docker ps -a  | Lists all the containers in running or exited state |
-| 14. | docker inspect container  | Lists all the containers in running or exited state |
-| 15. | docker run --help  | Lists all the available commands with run |
+| 13. | docker inspect container  | Lists all the containers in running or exited state |
+| 14. | docker run --help  | Lists all the available commands with run |
+| 15. | docker start containerName  | Start a container that is in existed ot stopped state |
+| 16. | docker exec -it containerName bash | Connect interactively through terminal or ssh into running container |
+
 
 
 

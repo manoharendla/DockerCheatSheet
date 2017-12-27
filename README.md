@@ -4,6 +4,9 @@
 | S.No. | Dockercommand | Description | 
 | --- | --- | --- |
 | 1. | docker images | Displays the images in the docker host |
+|    |               | Details of commands used in Dockerfile |
+| 2. |  ENV var1=Mano var2=Moni |  Using ENV keyword we declare variables |
+
 
 
 

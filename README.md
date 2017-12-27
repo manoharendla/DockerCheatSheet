@@ -5,7 +5,15 @@
 | --- | --- | --- |
 | 1. | docker images | Displays the images in the docker host |
 |    | `Details of commands used in Dockerfile` |  |
-| 2. |  ENV var1=Mano var2=Moni |  Using ENV keyword we declare variables |
+| 2. |  ENV var1=Mano var2=Master |  Using ENV keyword we declare variables |
+| 3. | WORKDIR dirname | Set the Working directory when the container is launched |
+| 4. | CMD pwd |  Execute a command when container is launcher |
+| 5. | FROM ubuntu | Base image |
+| 6. | MAINTAINER  manoharendla277@gmail.com | Helps in dentifying the  owner of the image file |
+| 7. | docker build -t="sampleTagName to Identify your image created using docker file" | When docker build is executed in the directory where the docker file is available, an image will be created with the definitions created in the docker file |
+
+
+
 
 
 

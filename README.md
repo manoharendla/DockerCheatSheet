@@ -1,9 +1,9 @@
 # Welcome to Docker cheat Sheet
 
 
-| Dockercommand | Description | Example |
-| --- | --- | --- | --- |
-| docker images | Displays the images in the docker host | docker image |
+| Dockercommand | Description | 
+| --- | --- | 
+| docker images | Displays the images in the docker host |
 
 
 

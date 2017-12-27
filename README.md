@@ -13,6 +13,12 @@
 | 8. | docker run --name="CreateANameforContainer" imageName  | Creates a container with specified Name |
 | 9. | docker run -d imageName  | Creates a container in detached mode |
 | 10. | docker attach containerName  | Allows you to attach to the container in interactive mode |
+| 11. | docker ps  | Lists the running containers |
+| 12. | docker ps -a  | Lists all the containers in running or exited state |
+| 12. | docker ps -a  | Lists all the containers in running or exited state |
+| 12. | docker inspect container  | Lists all the containers in running or exited state |
+
+
 
 
 

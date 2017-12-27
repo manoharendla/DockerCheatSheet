@@ -5,6 +5,19 @@
 | --- | --- | --- |
 | 1. | docker images | Displays the images in the docker host |
 | 2. | docker build -t="sampleTagName to Identify your image created using docker file" | When docker build is executed in the directory where the docker file is available, an image will be created with the definitions created in the docker file |
+| 3. | docker jenkins pull | Pulls a Jenkins image from the docker cloud repository or docker hub  |
+| 4. | docker stop containerId(or)ContainerName | Stops the running container using SIGTERM and then SIGKILL, helps in gracefull shutdown of the container |
+| 5. | docker kill pull | Stops a container without a gracefull shutdown, chances of unstable state of the container |
+| 6. | docker run imageName | Creates a container from the image |
+| 7. | docker run -it imageName /bin/bash | Creates a container in interactive mode and executes the command /bin/bash as an entry point |
+| 8. | docker run --name="CreateANameforContainer" imageName  | Creates a container with specified Name |
+| 9. | docker run -d imageName  | Creates a container in detached mode |
+| 10. | docker attach containerName  | Allows you to attach to the container in interactive mode |
+
+
+
+
+
 |    | `Details of commands used in Dockerfile` |  |
 | 1. |  ENV var1=Mano var2=Master |  Using ENV keyword we declare variables |
 | 2. | WORKDIR dirname | Set the Working directory when the container is launched |

@@ -19,6 +19,8 @@
 | 14. | docker run --help  | Lists all the available commands with run |
 | 15. | docker start containerName  | Start a container that is in existed ot stopped state |
 | 16. | docker exec -it containerName bash | Connect interactively through terminal or ssh into running container |
+| 17. | docker ps -s | Retrives the size used by the container and also displays the virtual size which is equivalent to size of reaonly image size and contianer size|
+
 
 
 

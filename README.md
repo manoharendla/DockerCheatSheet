@@ -20,6 +20,10 @@
 | 15. | docker start containerName  | Start a container that is in existed ot stopped state |
 | 16. | docker exec -it containerName bash | Connect interactively through terminal or ssh into running container |
 | 17. | docker ps -s | Retrives the size used by the container and also displays the virtual size which is equivalent to size of reaonly image size and contianer size|
+| 18. | docker port containerID | list downs all the ports used/exposed by the running container |
+| 19. | docker run -dit imageName | Runs the container in daemon mode |
+| 20. | docker run -dit --publish-all imageName | publish all the ports defined in image . Note: Difference between Publish and expose, expose allows the ports to be visible for inter communicaiton between containers and publish allows you to reach the port from host |
+| 21. |
 
 
 

@@ -24,11 +24,12 @@
 | 19. | docker run -dit imageName | Runs the container in daemon mode |
 | 20. | docker run -dit --publish-all imageName | publish all the ports defined in an image . Note: Difference between Publish and expose, expose allows the ports to be visible for inter communicaiton between containers and publish allows you to reach the port from host |
 | 21. | DOCKER_OPTS="--iptables=true --icc=false" | If you want to restrict the communication between the containers add the line to /etc/default/docker for ubuntu | 
-
+| ---- | --- | ---|
 
 
 
 | S.No | Details of commands used in Dockerfile | Description  |
+| --- | --------------------------------------- | ----- |
 | 1. |  ENV var1=Mano var2=Master |  Using ENV keyword we declare variables |
 | 2. | WORKDIR dirname | Set the Working directory when the container is launched |
 | 3. | CMD pwd |  Execute a command when container is launcher |

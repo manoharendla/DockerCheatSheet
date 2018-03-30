@@ -28,7 +28,7 @@
 
 
 
-|    | `Details of commands used in Dockerfile` |  |
+| S.No  | `Details of commands used in Dockerfile` | Description  |
 | 1. |  ENV var1=Mano var2=Master |  Using ENV keyword we declare variables |
 | 2. | WORKDIR dirname | Set the Working directory when the container is launched |
 | 3. | CMD pwd |  Execute a command when container is launcher |

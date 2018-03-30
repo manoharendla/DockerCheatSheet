@@ -24,7 +24,7 @@
 | 19. | docker run -dit imageName | Runs the container in daemon mode |
 | 20. | docker run -dit --publish-all imageName | publish all the ports defined in an image . Note: Difference between Publish and expose, expose allows the ports to be visible for inter communicaiton between containers and publish allows you to reach the port from host |
 | 21. | DOCKER_OPTS="--iptables=true --icc=false" | If you want to restrict the communication between the containers add the line to /etc/default/docker for ubuntu | 
-| ---- | --- | ---|
+
 
 
 
